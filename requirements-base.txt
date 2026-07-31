@@ -1,0 +1,23 @@
+# AIGO 教程系列 - 基础依赖
+# 安装: pip install -r requirements-base.txt
+
+# HTTP 请求
+requests>=2.31.0
+
+# LLM 调用（OpenAI 兼容接口）
+openai>=1.0.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 可视化
+matplotlib>=3.7.0
+
+# Notebook 开发
+jupyter>=1.0.0
+
+# JSON 处理
+jsonlines>=4.0.0
+
+# 进度条
+tqdm>=4.65.0

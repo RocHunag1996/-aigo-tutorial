@@ -1,0 +1,60 @@
+{
+  "title": "材料科学文献知识抽取 Schema",
+  "description": "从论文中抽取结构化知识，用于构建材料科学领域知识库",
+  "fields": {
+    "material": {
+      "description": "材料成分与名称",
+      "example": "LiCoO2",
+      "sub_fields": {
+        "name": "材料通用名称",
+        "formula": "化学式（标准格式）",
+        "category": "材料类别（正极/负极/电解质/催化剂等）"
+      }
+    },
+    "structure": {
+      "description": "结构参数",
+      "example": {
+        "crystal_system": "六方",
+        "space_group": "R-3m",
+        "lattice_a": "2.82 A"
+      },
+      "sub_fields": {
+        "crystal_system": "晶系",
+        "space_group": "空间群",
+        "lattice_parameters": "晶格参数（a, b, c, α, β, γ）",
+        "morphology": "形貌（纳米线/薄膜/颗粒等）"
+      }
+    },
+    "property": {
+      "description": "性能指标",
+      "example": {
+        "property_name": "比容量",
+        "value": 180,
+        "unit": "mAh/g",
+        "condition": "0.1C, 25°C"
+      },
+      "sub_fields": {
+        "property_name": "性能名称（比容量/电导率/循环寿命等）",
+        "value": "数值",
+        "unit": "单位",
+        "condition": "测试条件（温度/倍率/电压范围等）"
+      }
+    },
+    "synthesis": {
+      "description": "合成条件",
+      "example": {
+        "method": "溶胶-凝胶法",
+        "temperature": "700°C",
+        "time": "12 h",
+        "atmosphere": "空气"
+      },
+      "sub_fields": {
+        "method": "合成方法",
+        "temperature": "合成温度",
+        "time": "合成时间",
+        "atmosphere": "气氛",
+        "precursors": "前驱体"
+      }
+    }
+  }
+}

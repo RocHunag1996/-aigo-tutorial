@@ -1,0 +1,51 @@
+# ================= 密钥 · 绝对不要提交 =================
+.env
+.env.local
+.env.*
+!.env.example
+
+# MinerU / 各类含 key 的 config（模板除外）
+config.json
+*config*.json
+!config.json.example
+src/config.json
+
+# ================= Python =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ================= 数据与产物（本地保留，不入库）=================
+# 版权 PDF 原文不入库
+*.pdf
+# 生成的知识库 / 二进制数据
+*.db
+*.sqlite
+# 运行输出
+output/
+outputs/
+
+# 公众号推文源（HTML/MD 属于发布工作流，不进代码库）
+articles/
+
+# ================= 系统文件 =================
+.DS_Store
+Thumbs.db

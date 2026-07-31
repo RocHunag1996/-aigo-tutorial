@@ -1,0 +1,8 @@
+{
+  "mineru_api_keys": [
+    "your_mineru_jwt_token_1",
+    "your_mineru_jwt_token_2"
+  ],
+  "deepseek_api_key": "your_deepseek_api_key_here",
+  "Sciverse_api_key": "your_sciverse_api_key_here"
+}
