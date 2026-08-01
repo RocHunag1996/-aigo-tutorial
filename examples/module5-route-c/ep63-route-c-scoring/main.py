@@ -1,14 +1,14 @@
 """
 AIGO 教程系列 - 路线 C·合成路线与工艺设计
-ep63-route-c-scoring: 路线 C 评分标准拆解
-详细解析竞赛路线 C 的各评分维度与得分策略
+ep63-route-c-scoring: 路线 C 质量清单拆解
+详细解析路线 C 的各质量维度与打磨策略
 """
 
 
 def print_scoring_overview():
-    """打印评分维度总览"""
+    """打印质量维度总览"""
     print("=" * 60)
-    print("路线 C 评分维度总览")
+    print("路线 C 质量维度总览")
     print("=" * 60)
 
     dimensions = [
@@ -80,7 +80,7 @@ def print_scoring_overview():
 
 
 def print_scoring_strategy():
-    """打印得分策略建议"""
+    """打印打磨策略建议"""
     print("\n" + "=" * 60)
     print("高分策略建议")
     print("=" * 60)
@@ -167,7 +167,7 @@ def calculate_demo_score():
 
 
 def main():
-    print("ep63 - 路线 C 评分标准拆解")
+    print("ep63 - 路线 C 质量清单拆解")
     print("=" * 60)
 
     print_scoring_overview()

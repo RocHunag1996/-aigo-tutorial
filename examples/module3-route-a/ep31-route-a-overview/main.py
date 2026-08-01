@@ -47,7 +47,7 @@ def print_file_index():
         ("ep40", "evidence-chain",       "文献证据链构建"),
         ("ep41", "interpretability",     "特征重要性与物理解释"),
         ("ep42", "case-study",           "Heusler 合金实战案例"),
-        ("ep43", "route-a-scoring",      "评分标准逐项拆解"),
+        ("ep43", "route-a-scoring",      "质量清单逐项拆解"),
         ("ep44", "module3-summary",      "模块三总结与常见翻车点"),
     ]
 

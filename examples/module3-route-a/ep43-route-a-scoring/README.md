@@ -1,4 +1,4 @@
-# ep43-route-a-scoring: 路线 A 评分标准拆解
+# ep43-route-a-scoring: 路线 A 质量清单拆解
 
 **所属模块**：路线 A·构效关系发现
 

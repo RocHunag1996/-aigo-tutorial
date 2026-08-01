@@ -45,7 +45,7 @@ def print_file_index():
         ("ep50", "monte-carlo",        "蒙特卡洛模拟（2D Ising）"),
         ("ep51", "ml-md",              "分子动力学新架构（Verlet + LJ）"),
         ("ep52", "generative-models",  "生成式模型（VAE 思路演示）"),
-        ("ep53", "route-b-scoring",    "评分标准拆解"),
+        ("ep53", "route-b-scoring",    "质量清单拆解"),
         ("ep54", "module4-summary",    "模块四总结"),
     ]
 

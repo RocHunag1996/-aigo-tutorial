@@ -1,4 +1,4 @@
-# ep53-route-b-scoring: 路线 B 评分标准拆解
+# ep53-route-b-scoring: 路线 B 质量清单拆解
 
 **所属模块**：路线 B·模拟方法创新
 

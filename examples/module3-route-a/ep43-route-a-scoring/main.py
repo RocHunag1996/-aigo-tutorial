@@ -1,13 +1,13 @@
 """
 AIGO 教程系列 - 路线 A·构效关系发现
-ep43-route-a-scoring: 评分标准拆解
+ep43-route-a-scoring: 质量清单拆解
 
-打印评分维度，逐项说明代码对应关系。
+打印质量维度，逐项说明代码对应关系。
 """
 
 
 def print_scoring_dimensions():
-    """打印路线 A 评分维度。"""
+    """打印路线 A 质量维度。"""
     dimensions = [
         {
             "name": "数据采集与处理",
@@ -82,12 +82,12 @@ def print_scoring_dimensions():
 
 
 def print_dimension_detail(dim):
-    """打印单个评分维度的详情。"""
+    """打印单个质量维度的详情。"""
     print(f"\n{'='*60}")
     print(f"  {dim['name']}（权重: {dim['weight']}）")
     print(f"{'='*60}")
 
-    print(f"\n  评分标准:")
+    print(f"\n  质量清单:")
     for i, c in enumerate(dim["criteria"], 1):
         print(f"  {i}. {c}")
 
@@ -118,7 +118,7 @@ def print_scoring_tips():
 
 def main():
     print("=" * 60)
-    print("  ep43 - 路线 A 评分标准拆解")
+    print("  ep43 - 路线 A 质量清单拆解")
     print("=" * 60)
 
     dimensions = print_scoring_dimensions()

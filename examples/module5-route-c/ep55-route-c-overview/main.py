@@ -37,7 +37,7 @@ def print_roadmap():
 ║  ep62  合成验证 ──────────── 三级验证策略                    ║
 ║   │                                                          ║
 ║   ▼                                                          ║
-║  ep63  评分标准拆解 ──────── 路线C评分维度详解               ║
+║  ep63  质量清单拆解 ──────── 路线C质量维度详解               ║
 ║   │                                                          ║
 ║   ▼                                                          ║
 ║  ep64  模块五总结 ────────── 回顾与展望                      ║
@@ -65,8 +65,8 @@ def print_file_index():
         ("ep60-process-optimization", "贝叶斯优化合成工艺参数"),
         ("ep61-visualization", "合成决策流程 ASCII 可视化"),
         ("ep62-validation", "计算/文献/实验三级验证"),
-        ("ep63-route-c-scoring", "路线 C 评分标准拆解"),
-        ("ep64-module5-summary", "模块五总结与竞赛提交建议"),
+        ("ep63-route-c-scoring", "路线 C 质量清单拆解"),
+        ("ep64-module5-summary", "模块五总结与项目化交付建议"),
     ]
 
     for i, (folder, desc) in enumerate(episodes, 1):

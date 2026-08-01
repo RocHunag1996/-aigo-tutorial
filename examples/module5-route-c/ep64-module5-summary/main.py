@@ -1,7 +1,7 @@
 """
 AIGO 教程系列 - 路线 C·合成路线与工艺设计
 ep64-module5-summary: 模块五总结
-回顾路线 C 全流程，总结关键技能与竞赛提交建议
+回顾路线 C 全流程，总结关键技能与项目化交付建议
 """
 
 import os
@@ -33,7 +33,7 @@ def print_pipeline_summary():
     │  ep62 三级验证（计算 → 文献 → 实验）                    │
     │       │                                                 │
     │       ▼                                                 │
-    │  ep63 评分标准拆解 ──▶ 针对性优化                       │
+    │  ep63 质量清单拆解 ──▶ 针对性优化                       │
     │                                                         │
     └─────────────────────────────────────────────────────────┘
     """
@@ -46,27 +46,27 @@ def print_key_skills():
         "LLM 信息提取": {
             "desc": "从非结构化文本中提取结构化合成条件",
             "files": ["ep56", "ep58"],
-            "competition": "体现 LLM 在材料科学中的 NLP 应用"
+            "value": "体现 LLM 在材料科学中的 NLP 应用"
         },
         "知识库工程": {
             "desc": "设计数据库结构，支持高效检索与交叉引用",
             "files": ["ep57"],
-            "competition": "展示系统性数据管理能力"
+            "value": "展示系统性数据管理能力"
         },
         "Agent 设计": {
             "desc": "构建多步骤推理的合成路线生成 Agent",
             "files": ["ep59"],
-            "competition": "核心亮点：自主规划能力"
+            "value": "核心亮点：自主规划能力"
         },
         "贝叶斯优化": {
             "desc": "用代理模型优化高成本实验参数",
             "files": ["ep60"],
-            "competition": "展示算法思维与工程优化能力"
+            "value": "展示算法思维与工程优化能力"
         },
         "科学验证": {
             "desc": "三级递进验证策略，不盲目信任 AI 输出",
             "files": ["ep62"],
-            "competition": "体现科学素养与批判性思维"
+            "value": "体现科学素养与批判性思维"
         },
     }
 
@@ -76,7 +76,7 @@ def print_key_skills():
         print(f"\n  [{name}]")
         print(f"    描述: {info['desc']}")
         print(f"    对应期数: {', '.join(info['files'])}")
-        print(f"    竞赛价值: {info['competition']}")
+        print(f"    实用价值: {info['value']}")
 
 
 def print_common_pitfalls():
@@ -119,8 +119,8 @@ def print_common_pitfalls():
 
 
 def print_submission_checklist():
-    """打印竞赛提交检查清单"""
-    print("\n竞赛提交检查清单")
+    """打印项目质量自检清单"""
+    print("\n项目质量自检清单")
     print("=" * 60)
 
     checklist = [
@@ -139,7 +139,7 @@ def print_submission_checklist():
     for i, item in enumerate(checklist, 1):
         print(f"  [ ] {i:2d}. {item}")
 
-    print(f"\n  共 {len(checklist)} 项，建议逐项检查后再提交。")
+    print(f"\n  共 {len(checklist)} 项，建议逐项检查后再发布/交付。")
 
 
 def print_farewell():
@@ -165,7 +165,7 @@ def print_farewell():
     三条路线覆盖了材料科学研究的完整链条：
     发现 → 理解 → 模拟 → 合成
 
-    祝大家在 AIGO 竞赛中取得好成绩！
+    愿你把它接上真实数据、用到自己的研究里，做出属于你的东西！
     """)
 
 
